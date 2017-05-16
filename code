@@ -1,0 +1,8 @@
+>>> def normname(s):
+	return s[0].upper()+s[1:].lower()
+
+>>> normname('asdasd')
+'Asdasd'
+>>> list(map(normname,['tom','jack','mary']))
+['Tom', 'Jack', 'Mary']
+>>> 
